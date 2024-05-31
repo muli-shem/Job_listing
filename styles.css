@@ -107,3 +107,39 @@ header {
 .featured {
     border-left: 5px solid hsl(228, 45%, 44%);
 }
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #search {
+        margin-bottom: 1rem;
+    }
+
+    #clearButton {
+        width: 100%;
+    }
+}
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+    .job-listing .company-logo {
+        margin-right: 0; /* Remove margin to conserve space */
+        margin-bottom: 1rem; /* Add some space between logo and other info */
+    }
+
+    .job-listing .company-info h2 {
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
+
+    .job-listing .job-meta {
+        flex-direction: column; /* Stack meta info vertically */
+    }
+
+    .job-listing .job-meta span {
+        margin-right: 0; /* Remove right margin to conserve space */
+        margin-bottom: 0.5rem; /* Add some space between meta info */
+    }
+}
+
