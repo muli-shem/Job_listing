@@ -100,7 +100,8 @@ header {
 }
 .job-listing_header{
     display: flex;
-    align-content: space-between;
+    justify-content:  space-between;
+    
 }
 
 .featured {
